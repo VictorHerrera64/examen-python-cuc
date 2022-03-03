@@ -14,12 +14,8 @@ admin = donacion_institucion*0.35;
 sistemas = admin*0.25;
 teleco = sistemas*0.1;
 restante = donacion_institucion - (admin+sistemas+teleco);
-conta = donacion_institucion - restante
-print("Donacion  de la institucion: {} \n".format(donacion_institucion));
-print("Donacion a administracion : {} \n".format(admin));
-print("Donacion a sistemas : {}\n".format(sistemas));
-print("Donacion  a telecomucion: {}\n".format(teleco));
-print("Donacion a contabilidad : {}".format(conta));
+conta = donacion_institucion - restante;
+print(f'Donacion  de la institucion: {donacion_institucion} \n Donacion a administracion : {admin}  \n  Donacion  a  sistemas : {sistemas} \n Donacion a telecomucion: {teleco}  \n  Donacion a contabilidad : {conta}');
 
 
 
